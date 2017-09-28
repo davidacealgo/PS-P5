@@ -1,0 +1,22 @@
+
+<center>
+  <h1>PS-P4</h1>
+  <textarea rows="20" cols="100" id="texto" class="textarea"> </textarea>
+  <br>
+  <input type="file" id="fileinput" onChange={{action "metodo_leerArchivo"}}/>
+  <br>
+  <br>
+  <input type="button" id="dividirInput" value="Calcular LOC"  hidden="true" onclick={{action "metodo_dividirLOCMetodos"}}>
+  <input type="button" id="logInput" value="Calcular Logaritmos" hidden="true" onclick={{action "metodo_calcularLog"}}>
+  <input type="button" id="promInput" value="Calcular Promedio de Logaritmos" hidden="true" onclick={{action "metodo_calcularProm"}}>
+  <input type="button" id="variInput" value="Calcular Varianza" hidden="true" onclick={{action "metodo_calcularVarianza"}}>
+  <input type="button" id="desviInput" value="Calcular Desviacion Estandar" hidden="true" onclick={{action "metodo_calcularDesviacion"}}>
+  <input type="button" id="logRangInput" value="Calcular Rangos Logaritmicos" hidden="true" onclick={{action "metodo_cacularRangos"}}>
+  <input type="button" id="expRangInput" value="Calcular Rangos Exponenciales" hidden="true" onclick={{action "metodo_calcularExpRangos"}}>
+  <h2 id="resultado0"></h2>
+  <h2 id="resultado1"></h2>
+  <h2 id="resultado2"></h2>
+  <h2 id="resultado3"></h2>
+  <h2 id="resultado4"></h2>
+  <h2 id="resultado5"></h2>
+</center>
